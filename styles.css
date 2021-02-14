@@ -1,0 +1,17 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.choice{
+    padding-left: 25%;
+    padding-bottom: 3%;
+}
+
+#result{
+    padding-left: 40%;
+}
+
