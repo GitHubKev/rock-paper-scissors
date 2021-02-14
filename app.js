@@ -26,8 +26,8 @@ function playRound(playerSelection) {
         result = `You Won! <br/> You chose ${playerSelection} and the Computer chose ${computerSelection} <br/><br/>
         Your Score: ${playerScore} <br/> Computer's Score: ${computerScore}`
         if(playerScore === 5){
-            result = `The Final Score... <br/><br/> Your Score: ${playerScore} <br/> Computer's Score: ${computerScore}
-            <br/> Congratulations!!! You beat the computer, Play again?`
+            result = `Congratulations!!! You beat the computer <br/><br/> Your Score: ${playerScore} <br/> Computer's Score: ${computerScore}
+            <br/><br/>Refresh the page to play again`
             restart()
         }
     } else if (playerSelection === computerSelection){
@@ -39,8 +39,8 @@ function playRound(playerSelection) {
         result = `You lost! <br/> You chose ${playerSelection} and the Computer chose ${computerSelection} <br/><br/>
         Your score: ${playerScore} <br/> Computer's Score: ${computerScore}`
         if(computerScore === 5){
-            result = `The Final Score is...<br/><br/> Your Score: ${playerScore} <br/> Computer's Score: ${computerScore}
-            <br/> You lost! Try Again?`
+            result = `You lost! <br/><br/> Your Score: ${playerScore} <br/> Computer's Score: ${computerScore}
+            <br/><br/> Refresh the page to play again`
             restart()
         }
     }
